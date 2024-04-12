@@ -1,0 +1,38 @@
+@import url("/assets/styles/font.css");
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/wallpaper.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Oxygen Mono";
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, footer {
+    font-family: Oxanium;
+}
+
+a {
+    color: #5FCDF5;
+}
+
+
+main, aside, footer {
+    text-align: center;
+    padding: 2px;
+}
+
+footer {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}

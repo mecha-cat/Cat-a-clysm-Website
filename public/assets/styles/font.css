@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Metrophobic";
-    src: url("/assets/fonts/Metrophobic-Regular.ttf") format("truetype");
+    font-family: "Oxygen Mono";
+    src: url("/assets/fonts/OxygenMono-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Permanent Marker";
-    src: url("/assets/fonts/PermanentMarker-Regular.ttf") format("truetype");
+    font-family: "Oxanium";
+    src: url("/assets/fonts/Oxanium-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }

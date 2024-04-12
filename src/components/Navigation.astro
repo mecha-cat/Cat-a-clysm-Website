@@ -1,0 +1,45 @@
+<nav>
+    <details>
+        <summary><a>Gallery</a> <br /></summary>
+        <a id="#subclass" href="/drawings">Drawings</a> <br />
+        <a id="#subclass" href="/wip">My Hometown</a> <br />
+        <a id="#subclass" href="/wip">Neofetch with Thigh Highs</a> <br /> <br />
+    </details>
+
+    <details>
+        <summary><a>Writing</a> <br /></summary>
+        <a id="#subclass" href="/wip">Life</a> <br />
+        <a id="#subclass" href="/wip">Tech</a> <br />
+        <a id="#subclass" href="/wip">Plurality</a> <br />
+        <a id="#subclass" href="/wip">Random Notes</a> <br /> <br />
+    </details>
+    
+</nav>
+
+<style>
+
+nav a {
+    color:white;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+summary {
+    cursor: pointer;
+}
+
+summary::marker {
+    content: '\1F86A  ';
+    font-size: 2em;
+}
+
+details[open] summary ~ a {
+    font-size: 1.5em;
+}
+
+details[open] summary::marker {
+    content: '\1F86B  ';
+    font-size: 2em;
+    
+}
+</style>

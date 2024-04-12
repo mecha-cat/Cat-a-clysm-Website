@@ -1,22 +1,28 @@
 ---
-import "../styles/global.css";
-import Header from "../components/Header.astro";
+const { title } = Astro.props
 
-const {
-	title
-} = Astro.props;
+import '../styles/index.css';
+import '../styles/container.css';
+
+import ContainerLeft from '../components/ContainerLeft.astro';
+import ContainerRight from '../components/ContainerRight.astro';
 ---
 
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<title>{title}</title>
-	</head>
-	<body>
-		<Header />
-		<slot />
-	</body>
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>{title}</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <ContainerLeft />
+            <ContainerRight>
+                <slot />
+            </ContainerRight>
+        </div>
+    </body>
 </html>

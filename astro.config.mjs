@@ -1,14 +1,8 @@
 import { defineConfig } from 'astro/config';
 
+import mdx from "@astrojs/mdx";
+
 // https://astro.build/config
 export default defineConfig({
-  site: "https://cataclysm.systems",
-  compressHTML: false,
-  output: "static",
-  trailingSlash: "never",
-  build: {
-    format: "file",
-    assets: "assets/_astro",
-    inlineStylesheets: "never"
-  }
+  integrations: [mdx()]
 });
