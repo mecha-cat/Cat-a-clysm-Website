@@ -28,6 +28,7 @@
     height: 100%;
     padding: 12px;
     width: 75%;
+    flex-wrap: wrap;
 }
 
 s::after, s::before {

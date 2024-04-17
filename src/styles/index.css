@@ -34,5 +34,10 @@ footer {
 }
 
 li {
-    list-style-type: none;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.container ul {
+    padding-inline-start: 0;
 }
